@@ -1,10 +1,10 @@
 # A web app for generating JWT-based access tokens for Salesforce
 
-Certain apps like postman and some web-based apps may not have the ability to read an x509 cert or sign a request with it. This web app can be used to generate a JWT token in such instances.
+Certain apps like postman and some web-based apps may not have the ability to read an x509 cert or sign a request with it. This web app can be used to generate a JWT-based access token in such instances.
 
 ## Usage
 
-To run locally, clone this repo and run `npm install && npm run`
+To run locally, clone this repo and run `npm install && npm run`. The app will be available at http://localhost:3000 once it starts.
 
 Alternatively, you may deploy it to a PAAS provider of your choice, such as Heroku
 
